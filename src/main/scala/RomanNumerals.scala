@@ -13,8 +13,10 @@ object RomanNumerals {
         "I" * digit
       else if (digit < 9)
         "V" + "I" * (digit - 5)
-      else
+      else if (digit == 10)
         "X"
+      else
+        "XI"
     }
 
 }
