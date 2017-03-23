@@ -18,17 +18,16 @@ object RomanNumerals {
 
     if (fixedDigits.contains(digit))
       fixedDigits(digit)
-    else {
-        base + "I" * (digit % 5)
-    }
+    else
+      base + "I" * (digit % 5)
   }
 
   private def findBase(digit: Int): String = {
-     base.find(digit <= _._1) match {
-       case Some((key, value)) if key == digit => value
-       case x@Some(_) if base.indexOf(x.get) > 0 => base(base.indexOf(x.get) - 1)._2
-       case _ => ""
-     }
+    base.find(digit <= _._1) match {
+      case Some((key, value)) if key == digit => value
+      case x@Some(_) if base.indexOf(x.get) > 0 => base(base.indexOf(x.get) - 1)._2
+      case _ => ""
+    }
   }
 
 }
