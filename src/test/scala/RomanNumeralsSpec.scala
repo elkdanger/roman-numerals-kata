@@ -40,6 +40,12 @@ class RomanNumeralsSpec extends WordSpec with MustMatchers {
 
     }
 
+    "convert the number 7" in {
+
+      RomanNumerals.convert(7) mustBe "VII"
+
+    }
+
   }
 
 }
