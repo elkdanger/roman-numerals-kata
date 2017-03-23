@@ -28,6 +28,12 @@ class RomanNumeralsSpec extends WordSpec with MustMatchers {
 
     }
 
+    "convert the number 5" in {
+
+      RomanNumerals.convert(5) mustBe "V"
+
+    }
+
   }
 
 }
