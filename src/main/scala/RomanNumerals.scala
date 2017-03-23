@@ -9,7 +9,8 @@ object RomanNumerals {
   private val base = Seq(
     5 -> "V",
     10 -> "X",
-    15 -> "XV"
+    15 -> "XV",
+    20 -> "XX"
   )
 
   def convert(digit: Int): String = {
