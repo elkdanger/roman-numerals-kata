@@ -22,6 +22,12 @@ class RomanNumeralsSpec extends WordSpec with MustMatchers {
 
     }
 
+    "convert the number 4" in {
+
+      RomanNumerals.convert(4) mustBe "IV"
+
+    }
+
   }
 
 }
