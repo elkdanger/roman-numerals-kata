@@ -58,6 +58,12 @@ class RomanNumeralsSpec extends WordSpec with MustMatchers {
 
     }
 
+    "convert the number 10" in {
+
+      RomanNumerals.convert(10) mustBe "X"
+
+    }
+
   }
 
 }
