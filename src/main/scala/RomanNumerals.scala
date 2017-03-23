@@ -3,7 +3,8 @@ object RomanNumerals {
   private val fixedDigits = Map(
     4 -> "IV",
     9 -> "IX",
-    14 -> "XIV"
+    14 -> "XIV",
+    19 -> "XIX"
   )
 
   private val base = Seq(

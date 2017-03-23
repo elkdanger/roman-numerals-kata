@@ -112,6 +112,12 @@ class RomanNumeralsSpec extends WordSpec with MustMatchers {
 
     }
 
+    "convert the number 19" in {
+
+      RomanNumerals.convert(19) mustBe "XIX"
+
+    }
+
   }
 
 }
