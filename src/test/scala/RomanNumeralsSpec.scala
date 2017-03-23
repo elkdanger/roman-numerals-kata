@@ -46,6 +46,12 @@ class RomanNumeralsSpec extends WordSpec with MustMatchers {
 
     }
 
+    "convert the number 8" in {
+
+      RomanNumerals.convert(8) mustBe "VIII"
+
+    }
+
   }
 
 }
