@@ -16,6 +16,12 @@ class RomanNumeralsSpec extends WordSpec with MustMatchers {
 
     }
 
+    "convert the number 3" in {
+
+      RomanNumerals.convert(3) mustBe "III"
+
+    }
+
   }
 
 }
