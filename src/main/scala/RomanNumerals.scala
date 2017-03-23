@@ -5,7 +5,9 @@ object RomanNumerals {
       "I" * digit
     else if (digit == 4)
       "IV"
-    else
+    else if (digit == 5)
       "V"
+    else
+      "VI"
 
 }
