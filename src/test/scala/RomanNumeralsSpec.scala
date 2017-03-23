@@ -79,7 +79,13 @@ class RomanNumeralsSpec extends WordSpec with MustMatchers {
     "convert the number 13" in {
 
       RomanNumerals.convert(13) mustBe "XIII"
-      
+
+    }
+
+    "convert the number 14" in {
+
+      RomanNumerals.convert(14) mustBe "XIV"
+
     }
 
   }
