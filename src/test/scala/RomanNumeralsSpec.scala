@@ -91,7 +91,7 @@ class RomanNumeralsSpec extends WordSpec with MustMatchers {
     "convert the number 15" in {
 
       RomanNumerals.convert(15) mustBe "XV"
-      
+
     }
 
   }
