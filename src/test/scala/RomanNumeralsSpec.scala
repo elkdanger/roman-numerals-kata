@@ -10,6 +10,12 @@ class RomanNumeralsSpec extends WordSpec with MustMatchers {
 
     }
 
+    "convert the number 2" in {
+
+      RomanNumerals.convert(2) mustBe "II"
+
+    }
+
   }
 
 }
